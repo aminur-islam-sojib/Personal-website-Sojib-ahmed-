@@ -1,18 +1,49 @@
 @media screen and (max-width:600px) {
     /* Nav Is Starting From Here */
-nav {
-    /* height: 40px; */
-    width: 100%;
-    background-color: transparent;
+
+.hide {
+    display: none;
+}
+
+
+nav{
+    height: auto;
+    margin-top: 10px;
+    /* display: none; */
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+} 
+.logo .fa-bars {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+nav ul li {
+    border: 1px solid #08497e;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2px;
 }
-    
-nav ul {
+.mobile-nav{
+    display: block;
+}
+.desktop-nav{
     display: none;
 }
-    
 .nav-btn {
     display: none;
 }
@@ -20,12 +51,13 @@ nav ul {
 
 /* Home Is Starting From Here */
 .home{
-    margin-top: -200px;
+    /* margin-top: -200px; */
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     flex-direction: column;
+    margin-top: -50px;
 }
 .home-content{
     flex: 2;
@@ -71,7 +103,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -105px;
+    margin-top: -15px;
 }
 .about-details {
     text-align: center;
@@ -79,13 +111,14 @@ nav ul {
 .about-details p {
     font-size: 0.999999rem;
     letter-spacing: 0.09rem;
+    text-align: justify;
+    padding: 30px;
 }
 .name-2 {
     font-size: 1.2rem;
     color: rgb(8, 73, 126);
 }
 .about-details span a {
-    /* text-decoration: none; */
     color: rgb(11, 92, 158);
 }
 /* About Section Is END Here */

@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Web</title>
+    <title>Sojib Ahmed-Web Developer</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="Image/Sadiqs pic.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/Logo-transparent.png" type="image/x-icon">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="style/mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -17,15 +18,13 @@
 
     <!-- Header IS Starting From Here -->
     <header>
-        <nav>
+        <nav class="desktop-nav">
             <div class="logo">
-                <h4>S Ahmed</h4>
+                <img src="images/Logo-Transparent-blue.png" alt="" class="logo">
             </div>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#blog">Blog</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -33,6 +32,22 @@
                 <button class="btn-logIn" onclick="window.open('https://wa.me/8801757829428')">Contact</button>
             </div>
         </nav>
+        <!-- Nav For Mobile  -->
+        <div class="logo mobile">
+            <img src="images/Logo-Transparent-blue.png" alt="" class="logo">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="m-nav-bar hide">
+            <nav class="mobile-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <!-- Nav For Mobile  -->
     </header>
     <!-- Header IS End From Here -->
 
@@ -61,85 +76,41 @@
     <!-- About Is Start From Here -->
     <div class="container-2" id="about">
         <div class="about">
-            <div class="img-2"><img src="images/Untitled design (3).png" alt=""></div>
-
+            <div class="img-2"><img src="images/Untitled design (3).png" alt=""></div>    
             <div class="aero"><img src="images/Aero.png" alt=""></div>
-
-            <div class="about-details">
-                <p>Hi, I'm <span class="name name-2"><b>Sojib Ahmed</b></span>. <br> <br>
-                    I'm a self-taught coder and passionate writer from Rajshahi. Bangladesh. <span
-                        class="line-break"><br></span>I’ve always been curious
-                    about how things work — especially computers — and <span class="line-break"><br></span> that
-                    curiosity led me to start learning
-                    programming. <br> <br>
-
-                    Coding lets me build things I imagine. Writing helps me reflect on what I <span
-                        class="line-break"><br></span>learn and share it with
-                    others. I believe in learning out loud, and I share my journey <span
-                        class="line-break"><br></span>through my <span><a
-                            href="https://www.youtube.com/@Sheikh_Sadiq_1">YouTube channel </a></span>where I post
-                    coding
-                    tutorials <span class="line-break"><br></span>and projects. <br> <br>
-
-                    Currently, I’m focusing on web development and Python, and every day <span
-                        class="line-break"><br></span>feels like a step closer to
-                    becoming the developer I want to be. In the <span class="line-break"><br></span> future, I hope to
-                    build meaningful apps, contribute to
-                    open-source, and <span class="line-break"><br></span>help beginners start their own journey.
-                    <br><br>
-
-                    If you love coding, learning, or creative growth, feel free to reach out — I’d <span
-                        class="line-break"><br></span>love to connect!
-                </p>
+            <div class="skill-about">
+                <div class="about-details">
+                    <p>Hi, I'm <span class="name name-2"><b>Sojib Ahmed</b></span>. <br> <br>
+                        I’m a detail-oriented and passionate web developer with strong skills in HTML, CSS, and <span class="line-break"><br></span>
+                        JavaScript.I focus on writing clean code, building responsive designs, and constantly
+                        improving <span class="line-break"><br></span> through learning and teamwork.
+                    </p>
+                </div>
+                <div class="text">Skills</div>
+                <div class="skills">
+                    <div class="skills-html">
+                        <div class="html">Html</div>
+                        <div class="skills-bar">
+                            <div class="skills-per" per="90%" style="max-width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skills-html">
+                        <div class="html">CSS</div>
+                        <div class="skills-bar">
+                            <div class="skills-per" per="70%" style="max-width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skills-html">
+                        <div class="html">JavaScript</div>
+                        <div class="skills-bar">
+                            <div class="skills-per" per="60%" style="max-width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- About Is End From Here -->
-
-    <!-- skills section is here -->
-    <div class="container-3" id="skill">
-        <div class="text">Skills</div>
-        <div class="skills">
-            <div class="skills-html">
-                <div class="html">Html</div>
-                <div class="skills-bar">
-                    <div class="skills-per" per="90%" style="max-width: 90%;"></div>
-                </div>
-            </div>
-            <div class="skills-html">
-                <div class="html">CSS</div>
-                <div class="skills-bar">
-                    <div class="skills-per" per="70%" style="max-width: 70%;"></div>
-                </div>
-            </div>
-            <div class="skills-html">
-                <div class="html">JavaScript</div>
-                <div class="skills-bar">
-                    <div class="skills-per" per="60%" style="max-width: 60%;"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- skills section is here -->
-
-
-    <!-- Blog section is here -->
-    <div class="container-4" id="blog">
-        <div class="blog">Blog</div>
-        <div class="cards">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-        </div>
-        <div class="cards card-2">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-        </div>
-    </div>
-    <!-- Blog section is here -->
 
     <!-- Project section is here -->
     <div class="container-5" id="project">
@@ -206,12 +177,7 @@
             </div>
         </div>
 
-        <script>
-            // This code will run on small screens
-            if (window.innerWidth < 768) {
-                document.querySelectorAll('.line-break').forEach(br => br.remove());
-            }
-        </script>
+        <script src="script.js"></script>
 
 </body>
 
