@@ -170,6 +170,9 @@ nav ul li a:hover::before{
     /* align-items: center; */
     position: relative;
 }
+.name-2 {
+    color: #08497e;
+}
 .about-details {
     flex: 1;
     margin-left: 0px;

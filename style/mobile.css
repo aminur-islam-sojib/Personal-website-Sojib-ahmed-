@@ -9,7 +9,6 @@
 nav{
     height: auto;
     margin-top: 10px;
-    /* display: none; */
 }
 .logo {
     display: flex;
@@ -179,7 +178,7 @@ nav ul li {
     display: none;
 }
 
-/* Contaact Section Is Here */
+/* Contact Section Is Here */
 .container-6 {
     height: 70vh;
     display: flex;
