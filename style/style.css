@@ -345,7 +345,7 @@ nav ul li a:hover::before{
     border-radius: 10px;
     color: white;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #053b75);
     text-align: center;
     overflow: hidden;
     transition: 1s;
